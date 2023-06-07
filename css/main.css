@@ -1111,16 +1111,14 @@ header .logo {
 }
 header .logo a {
 	display: block;
-	margin: 0;
-	padding: 0;
-	border: none;
+	
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
 	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	height: 50px;
+	background: url("../images/Frame\ 1\ \(48\).png") no-repeat center;
+	background-size: 92px 50px;
 }
 
 /**
@@ -1325,7 +1323,7 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
+	color: #f00a90;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1337,7 +1335,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: #F1F1F1;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1425,7 +1423,7 @@ header .logo a {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.intro-content h1 {
+	.intro-content h2 {
 		font-size: 7.6rem;
 	}
 	.intro-social {
